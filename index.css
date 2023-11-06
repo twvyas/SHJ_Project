@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background: transparent linear-gradient(180deg, #F1F6FB 0%, #F1F6FBF1 50%, #F1F6FB00 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+
+}
+
+.section {
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+
+.section h1 {
+    text-align: center;
+    color: #472E8D;
+    padding: 25px 0px;
+    font: normal normal bold 60px/77px Futura PT;
+
+}
+
+hr.line {
+    width: 10%;
+    margin: auto;
+    margin-bottom: 40px;
+
+
+    /* UI Properties */
+    border: 2px solid #B8DB15;
+    opacity: 1;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+    flex-wrap: wrap;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.items {
+    flex-basis: 23%;
+    padding: 20px 0px;
+    margin: 10px 0px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 0px 10px 3px lightgrey;
+    opacity: 1;
+    margin-bottom: 40px;
+
+}
+
+.items h3 {
+    padding: 10px 0px;
+    text-align: left;
+    font: normal normal 600 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #472E8D;
+    opacity: 1;
+}
+
+.items p {
+    padding: 10px;
+    text-align: left;
+    font: normal normal 300 16px/28px Poppins;
+    letter-spacing: 0px;
+    color: #878787;
+    opacity: 1;
+}
+
+.items button {
+    background: #F4C911 0% 0% no-repeat padding-box;
+    border-radius: 33px;
+    opacity: 1;
+    padding: 10px 25px;
+    color: black;
+    border: none;
+    margin: 10px 0px;
+    margin-left: 10px;
+}
+
+.button_read {
+    background: #F4C911 0% 0% no-repeat padding-box;
+    border-radius: 33px;
+    opacity: 1;
+    padding: 10px 25px;
+    color: black;
+    border: none;
+    justify-content: center;
+
+}
+
+.card-img {
+
+    height: 285px;
+    background: transparent 0% 0% no-repeat padding-box;
+    border-radius: 15px 15px 0px 0px;
+    opacity: 1;
+}
+
+@media only screen and (min-width:200px) and (max-width:767px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .items {
+        margin: 10px;
+    }
+}
