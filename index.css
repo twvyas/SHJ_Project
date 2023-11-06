@@ -3,7 +3,6 @@
     padding: 0px;
     background: transparent linear-gradient(180deg, #F1F6FB 0%, #F1F6FBF1 50%, #F1F6FB00 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
-    
 
 }
 
@@ -15,10 +14,16 @@
 
 
 .section h1 {
-    text-align: center;
-    color: #472E8D;
-    padding: 25px 0px;
-    font: normal normal bold 60px/77px Futura PT;
+   
+    /* padding: 25px 0px; */
+
+    /* UI Properties */
+text-align: center;
+font: normal normal bold 50px/64px Futura PT;
+letter-spacing: 0px;
+color: #472E8D;
+text-transform: uppercase;
+opacity: 1;
 
 }
 
@@ -62,6 +67,7 @@ hr.line {
     letter-spacing: 0px;
     color: #472E8D;
     opacity: 1;
+   
 }
 
 .items p {
