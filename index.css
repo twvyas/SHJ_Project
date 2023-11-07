@@ -52,7 +52,7 @@ hr.line {
     flex-basis: 23%;
     padding: 20px 0px;
     margin: 10px 0px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: transparent 0% 0% no-repeat padding-box;
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 0px 10px 3px lightgrey;
     opacity: 1;
@@ -90,6 +90,8 @@ hr.line {
     margin-left: 10px;
 }
 
+
+
 .button_read {
     background: #F4C911 0% 0% no-repeat padding-box;
     border-radius: 33px;
@@ -98,6 +100,10 @@ hr.line {
     color: black;
     border: none;
     justify-content: center;
+
+    
+  
+
 
 }
 
@@ -110,6 +116,7 @@ hr.line {
 }
 
 @media only screen and (min-width:200px) and (max-width:767px) {
+
     .container {
         width: 100%;
         flex-direction: column;
@@ -117,5 +124,11 @@ hr.line {
 
     .items {
         margin: 10px;
+    }
+
+    .button_read{
+        width: 50%;
+       
+      margin-left: 80px;
     }
 }
